@@ -7,11 +7,13 @@ municipio = "culiacan", "mazatlan"
 texto_1 = "la ciudad de "
 texto_2 = "tiene un clima "
 texto_3 = "tiene una poblacion de "
-texto_4 = "personas" 
+texto_4 = "personas"
+texto_5 = "total de la poblacion en sinaloa es"
 total_de_poblacion = 1532128 + 1494815
-print(total_de_poblacion)
+frase = (texto_5 + " " + str(total_de_poblacion))
+print(frase)
 
-#culiacan = %33.15
+#culiacan = %33.1
 #mazatlan = % 16.57
 
 poblacion_culiacan = total_de_poblacion * .3315 # porcentaje divido entre 100
