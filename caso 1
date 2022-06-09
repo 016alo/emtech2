@@ -1,0 +1,30 @@
+mujeres = 1532128 #total de mujeres en Sinaloa
+hombres = 1494815 #total de hombres en Sinaloa
+ecosistema = "calido","subhumedo", "seco","semiseco"
+temperatura = 24.5 #grado centigrados
+precipitacion_anual_promedio = 790.1
+municipio = "culiacan", "mazatlan"
+texto_1 = "la ciudad de "
+texto_2 = "tiene un clima "
+texto_3 = "tiene una poblacion de "
+texto_4 = "personas" 
+total_de_poblacion = 1532128 + 1494815
+print(total_de_poblacion)
+
+#culiacan = %33.15
+#mazatlan = % 16.57
+
+poblacion_culiacan = total_de_poblacion * .3315 # porcentaje divido entre 100
+#cadena = str()
+#print(municipio[0])
+#print(poblacion_culiacan)
+#print(ecosistema[0])
+frase = (texto_1 + " " + municipio[0] + " " + texto_3 + " " + str (poblacion_culiacan) +" " + texto_4 + " " + texto_2 + " " + ecosistema[0])
+print(frase)
+
+poblacion_mazatlan= total_de_poblacion * .1657 # porcentaje divido entre 100
+#print(municipio[1])
+#print(poblacion_mazatlan)
+#print(ecosistema[0])
+frase = (texto_1 + " " + municipio[1] + " " + texto_3 + " " + str(poblacion_mazatlan) +" " + texto_4  + " " + texto_2 + " " + ecosistema [1])
+print(frase)
